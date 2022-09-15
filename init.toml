@@ -27,6 +27,7 @@
     statusline_unicode = true
     # Enable vim compatible mode, avoid changing origin vim key bindings
     vimcompatible = true 
+    default_indent = 4
 
 # Enable autocomplete layer
 [[layers]]
@@ -45,3 +46,10 @@ default_height = 30
 [[layers]]
   name = "ui"
   enable_scrollbar = true
+
+[[layers]]
+  name = "lang#go"
+
+
+[[layers]]
+  name = "format"
