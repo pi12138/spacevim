@@ -8,4 +8,6 @@
 
 execute 'source' fnamemodify(expand('<sfile>'), ':h').'/main.vim'
 
+" 设置 spacevim space 按键的弹窗弹出时间，默认是 1000ms 
 set timeoutlen=100
+
